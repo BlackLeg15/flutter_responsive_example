@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'app/app_widget.dart';
 
 void main() {
-  runApp(DevicePreview(builder: (_) => const AppWidget()));
+  runApp(DevicePreview(builder: (context) => const AppWidget()));
 }
 
 
